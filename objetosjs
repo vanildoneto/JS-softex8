@@ -1,0 +1,31 @@
+var banco = {
+    conta: "43452",
+    saldo:  100,
+    tipodeconta: "corrente",
+    agencia: "001",
+    
+    buscarsaldo: function() {
+        console.log(banco.saldo);
+    },
+    
+    deposito: function() {
+        console.log(banco.saldo);
+    },
+    
+    saque: function() {
+        console.log(banco.saldo);
+    
+    },
+    
+    numerodaconta: function() {
+        console.log(banco.conta);
+    } 
+};
+
+console.log('Númeor da conta:', banco.conta);
+console.log('Tipo de conta:', banco.tipodeconta);
+console.log('Agência:', banco.agencia);
+console.log('saldo atual: R$ 100 reais');
+console.log('Houve um depósito de: R$ 50 reais');
+console.log('Houve um saque de: R$ 100 reais');
+console.log('Saldo atual = ', banco.saldo + 50 - 100);
